@@ -100,7 +100,15 @@ export default {
   methods: {
     goFn () {
       this.$router.push({
-        name: 'AAA'
+        name: 'AAA',
+        query: {
+          name: 'asdsad',
+          id: 1111,
+          searkey: 'aasdasdasdasdasd',
+          asda: 'sadasd',
+          asdasdasd: 'sdw22323',
+          asdsad: 'sad'
+        }
       })
     }
   }
